@@ -1,0 +1,42 @@
+.sec-title h2 {
+    color: #3b60de;
+}
+.work-filter ul li a.active {
+    background-color: #3b60de;
+}
+.overlay{
+    background-color: #3b60de;
+}
+.footer{
+    background-color: #3b60de;;
+}
+
+.service-desc h3{
+    color: #3c61de;
+}
+.devider i{
+    color: #e11e1e;
+}
+.team-member .social-links li a{
+   background-color: #03295c;
+}
+.team-member:hover h4{
+    color: #3b60de;
+}
+
+.work-filter ul li a:hover{
+   background-color: #3b60de;
+}
+.service-desc >h3> a{
+    color: #3c61de;
+}
+.service-icon{
+    color: #3c61de;
+    border: 1px solid #3c61de;
+}
+
+.service-desc >h3> a:hover{
+   color: #337ab7;
+    font-size: 30px;
+    /*transition: 3s;*/
+}

@@ -1,0 +1,22 @@
+.mix{
+    padding: 10px;
+}
+.wrapper-all{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    width: 80%;
+}
+/*.wrapper-all-1{*/
+
+    /*width: 100%;*/
+/*}*/
+/*.wrapper-all-2{*/
+    /*width: 100%;*/
+/*}*/
+.project-wrapper{
+
+    display: flex;
+   justify-content: space-around;
+
+}

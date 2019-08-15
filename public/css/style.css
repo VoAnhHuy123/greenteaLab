@@ -1,0 +1,173 @@
+#navigation {
+    background-color: #3b60de;
+}
+
+/*============================================================
+	For Small Desktop
+==============================================================*/
+
+@media (min-width: 980px) and (max-width: 1150px) {
+
+
+}
+
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+@media (min-width: 989px) and (max-width: 1920px) {
+
+    #slider {
+        padding: 0;
+        height: auto!important;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 979px) {
+
+    .sub-contents{
+        font-size: 13px;
+    }
+
+    .radius{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 41px;
+        width: 41px;
+        border: 1px solid #5db1ff;
+        border-radius: 21px;
+        font-size: 50px;
+    }
+    .radius > div{
+        font-size: 25px;
+    }
+
+    #slider {
+        padding: 0;
+        height: auto !important;
+    }
+}
+
+
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+
+/*@media only screen and (max-width: 767px) {*/
+/*#slider{*/
+    /*display: none;*/
+/*}*/
+
+/*}*/
+
+
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    #slider{
+        display: none;
+    }
+    .sub-contents{
+        font-size: 13px;
+    }
+
+    .radius{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 41px;
+        width: 41px;
+        border: 1px solid #5db1ff;
+        border-radius: 21px;
+        font-size: 50px;
+    }
+    .radius > div{
+        font-size: 25px;
+    }
+    .footer-contents{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contents-1{
+        width: 100%;
+    }
+    .footer-contents-2{
+        width: 100%;
+    }
+    .footer-contents-3{
+        width: 100%;
+    }
+    .sub-contents{
+        width: 90%;
+    }
+    .big-main{
+        height: 1500px;
+    }
+}
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+
+    #slider{
+        display: none;
+    }
+    .sub-contents{
+        font-size: 13px;
+    }
+
+    .radius{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 41px;
+        width: 41px;
+        border: 1px solid #5db1ff;
+        border-radius: 21px;
+        font-size: 50px;
+    }
+    .radius > div{
+        font-size: 25px;
+    }
+    .footer-contents{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-contents-1{
+        width: 100%;
+    }
+    .footer-contents-2{
+        width: 100%;
+    }
+    .footer-contents-3{
+        width: 100%;
+    }
+    .sub-contents{
+        width: 90%;
+    }
+    .big-main{
+        height: 1500px;
+    }
+}
+.dropdown {
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    color: black;
+!important;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

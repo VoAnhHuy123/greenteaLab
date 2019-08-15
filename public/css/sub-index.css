@@ -1,0 +1,28 @@
+/*.header-sub{*/
+    /*overflow: hidden;*/
+/*}*/
+
+
+.pro{
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 1000px;
+
+
+}
+
+.grid{
+    padding: 10px;
+
+
+}
+.work-item{
+    width: 33%;
+}
+.mix{
+    padding: 0px;
+}
+.project-wrapper{
+    width: 100%; !important;
+}
